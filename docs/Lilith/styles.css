@@ -3,9 +3,18 @@
   text-align: left;
 }
 
+.lilith-portrait {
+  width: 20vw;
+  margin: auto;
+  display: block;
+}
+
 .table-of-contents ul {
   list-style-type: square;
   padding: inherit;
+}
+a {
+  text-decoration: inherit;
 }
 
 .chart {
@@ -1092,7 +1101,7 @@ body {
 }
 
 .c12 {
-  text-indent: 36pt
+  /* text-indent: 36pt */
 }
 
 .c1 {
