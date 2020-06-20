@@ -1,3 +1,19 @@
+.home {
+  position: fixed;
+  top: 1vw;
+  left: 2vw;
+  font-size: calc(2vw + 2vh + 20px);
+  text-shadow: 1px 1px 1px pink;
+  user-select: none;
+  color: black;
+  text-decoration: none;
+}
+
+img:not(.selectable) {
+  user-select: none;
+  pointer-events: none;
+}
+
 header nav {
   text-align: center;
 }

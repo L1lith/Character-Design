@@ -1,10 +1,11 @@
 .home {
-  position: absolute;
+  position: fixed;
   top: 1vw;
   left: 1vw;
   font-size: calc(2vw + 2vh + 20px);
   text-shadow: 1px 1px 1px pink;
   user-select: none;
+  text-decoration: none;
 }
 
 .table-of-contents {
