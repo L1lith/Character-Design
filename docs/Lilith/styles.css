@@ -17,6 +17,11 @@
   display: block;
 }
 
+img:not(.selectable) {
+  user-select: none;
+  pointer-events: none;
+}
+
 .table-of-contents ul {
   list-style-type: square;
   padding: inherit;
