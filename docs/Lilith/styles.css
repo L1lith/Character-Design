@@ -4,6 +4,7 @@
   left: 1vw;
   font-size: calc(2vw + 2vh + 20px);
   text-shadow: 1px 1px 1px pink;
+  user-select: none;
 }
 
 .table-of-contents {
