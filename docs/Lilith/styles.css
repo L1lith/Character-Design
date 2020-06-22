@@ -17,6 +17,7 @@
   width: 20vw;
   margin: auto;
   display: block;
+  transform: translateX(7%);
 }
 
 img:not(.selectable) {
